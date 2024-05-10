@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- lists in html : unordered; ordered -->
+    <ul>
+        <li>apple</li>
+        <ul>
+            <li>color : red</li>
+            <li>season : winters</li>
+        </ul>
+        <li>mango</li>
+        <ul>
+            <li>color : yellow</li>
+            <li>season : summers</li>
+        </ul>
+    </ul>
+
+    <ol>
+        <li>apple</li>
+        <ul>
+            <li>color : red</li>
+            <li>season : winters</li>
+        </ul>
+        <li>mango</li>
+        <ul>
+            <li>color : yellow</li>
+            <li>season : summers</li>
+        </ul>
+    </ol>
+
+    <!-- tables -->
+    <table>
+        <thead>
+        <caption>student data</caption>
+        <tr>
+            <th>Name</th>
+            <th>CGPA</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Ankur</td>
+            <td>8.61</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="3">Students cgpa</thead>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ankur</td>
+                <td>9.81</td>
+            </tr>
+            <tr>
+                <td>Shankarr</td>
+                <td>9.01</td>
+            </tr>
+            <tr>
+                <td>Omkar</td>
+                <td>9.81</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- forms -->
+    <form action="xyz">
+
+        <!-- input tag -->
+        <input type="text" placeholder="type something">
+        <input type="password" placeholder="password">
+        <input type="radio" name="class" value="class 11"> class 11
+        <input type="radio" name="class" value="class 12"> class 12
+
+        <!-- label tag -->
+        <p>favourite sport</p>
+        <label for="sport1">
+        <input type="radio" value="cricket" name="sport" id="sport1">cricket
+        </label>
+        <label for="sport2">
+        <input type="radio" value="tennis" name="sport" id="sport2">tennis
+        </label>
+
+        <!-- checkbox -->
+        <label for="sub1">
+            <input type="checkbox" value="maths" name="subject" id="sub1">Maths
+        </label>
+        <label for="sub2">
+            <input type="checkbox" value="english" name="subject" id="sub2">English
+        </label>
+        <label for="sub3">
+            <input type="checkbox" value="Mechanics" name="subject" id="sub3">Mechanics
+        </label>
+        <label for="sub4">
+            <input type="checkbox" value="cse" name="subject">CSE
+        </label>
+
+        <!--text area  -->
+        <textarea name="feedback" id="bjfb" placeholder="please give ur feedback"></textarea>
+    </form>
+
+</body>
+</html>
